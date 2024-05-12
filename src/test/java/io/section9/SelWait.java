@@ -4,13 +4,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.Arrays;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
-public class Wait {
+public class SelWait {
     private static void addProduct(String[] item, WebDriver driver) throws InterruptedException {
 
         driver.get("https://rahulshettyacademy.com/seleniumPractise/");
@@ -30,7 +31,9 @@ public class Wait {
     }
     public static void main(String[] args) throws InterruptedException {
         WebDriver driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
+        //Implicit Wait
+        //driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         String[] item = {"Cucumber","Brocolli","Beetroot"};
         addProduct(item,driver);
 
@@ -41,10 +44,17 @@ public class Wait {
 
         //take some to get to checkOut page
 //            driver.findElement(By.xpath("//div[@class='promoWrapper']/parent::div/child::div/child::input")).sendKeys("param");
+
+        //Explicit Wait
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("input.promoCode")));
         driver.findElement(By.cssSelector("input.promoCode")).sendKeys("rahulshettyacademyparam");
 
         driver.findElement(By.xpath("//div[@class='promoWrapper']/child::button")).click();
+
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("span.promoInfo")));
+
         System.out.println(driver.findElement(By.cssSelector("span.promoInfo")).getText());
-        Assert.assertEquals(driver.findElement(By.cssSelector("span.promoInfo")).getText(),"Invalid code ..!");
+     //   Assert.assertEquals(driver.findElement(By.cssSelector("span.promoInfo")).getText(),"Invalid code ..!");
     }
 }

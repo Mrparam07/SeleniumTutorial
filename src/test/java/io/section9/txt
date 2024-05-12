@@ -15,7 +15,8 @@ readable code
 optimized
 
 Explicit wait
-for specific locator, exceptional cases
+not applied globally
+for specific locator, exceptional cases only affect the specific locator
 
 Qs - which wait in selenium is ideal to achieve synchronization?
 Ans - combined use of both
