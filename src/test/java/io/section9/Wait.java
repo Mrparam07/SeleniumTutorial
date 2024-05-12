@@ -47,5 +47,4 @@ public class Wait {
         System.out.println(driver.findElement(By.cssSelector("span.promoInfo")).getText());
         Assert.assertEquals(driver.findElement(By.cssSelector("span.promoInfo")).getText(),"Invalid code ..!");
     }
-
 }
