@@ -1,0 +1,27 @@
+Wait
+Synchronization
+
+To achieve synchronization
+
+Implicit wait
+wait time globally, wait for n sec before throw exception...max time limit is 5 sec
+if the element is found it then before n sec it come out, won't wait for n sec then
+wait till element to displayed within the timeframe, come out if it is found
+disadvantage
+say suppose max 5 sec required for 100 tc, and 15 sec for 100 tc
+won't able to find the bug if we set 15 sec for all the tc
+advantage
+readable code
+optimized
+
+Explicit wait
+for specific locator, exceptional cases
+
+Qs - which wait in selenium is ideal to achieve synchronization?
+Ans - combined use of both
+
+Thread.sleep
+part of java not selenium, used to wait for n sec, not dependent upon the locator
+
+Fluent wait
+
