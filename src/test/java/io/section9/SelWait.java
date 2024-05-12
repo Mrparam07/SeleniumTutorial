@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.Arrays;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class SelWait {
     private static void addProduct(String[] item, WebDriver driver) throws InterruptedException {
@@ -32,8 +33,8 @@ public class SelWait {
     public static void main(String[] args) throws InterruptedException {
         WebDriver driver = new ChromeDriver();
 
-        //Implicit Wait
-        //driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        //Implicit Wait - globally
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         String[] item = {"Cucumber","Brocolli","Beetroot"};
         addProduct(item,driver);
 
@@ -45,7 +46,7 @@ public class SelWait {
         //take some to get to checkOut page
 //            driver.findElement(By.xpath("//div[@class='promoWrapper']/parent::div/child::div/child::input")).sendKeys("param");
 
-        //Explicit Wait
+        //Explicit Wait - specific to element/locator
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("input.promoCode")));
         driver.findElement(By.cssSelector("input.promoCode")).sendKeys("rahulshettyacademyparam");

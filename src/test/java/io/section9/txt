@@ -14,15 +14,43 @@ advantage
 readable code
 optimized
 
+************************************************************************************************************************
+
 Explicit wait
+WebDriverWait
 not applied globally
 for specific locator, exceptional cases only affect the specific locator
+advantage
+wait is applied only for targetted element, so no performance issues
+disadvantage
+more code, complex
 
 Qs - which wait in selenium is ideal to achieve synchronization?
 Ans - combined use of both
 
+************************************************************************************************************************
+
 Thread.sleep
 part of java not selenium, used to wait for n sec, not dependent upon the locator
 
-Fluent wait
+************************************************************************************************************************
 
+Fluent wait
+type of explicit wait
+checks in regular interval time
+10 seconds, polling 2 sec - in every 2 sec till 10 sec it will checks
+unlike WebDriverWait it is not continuously monitoring/checking withing the duration
+code is little complex to write
+
+useCase
+duration 10 sec, polling 4 sec
+Your card is accepted(3 sec), your order is being processed(7 sec), confirmation
+
+both Fluent Wait and WaitDriverWait classes implement wait interface
+
+************************************************************************************************************************
+
+NOTE
+
+sometime element is present in the page but not visible so
+will not able to find where it is failing so it need to be ensured weather it is visible or not
