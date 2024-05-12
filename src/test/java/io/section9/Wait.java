@@ -1,16 +1,16 @@
-package io.section8;
+package io.section9;
 
-import org.openqa.selenium.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.Test;
 
-import java.time.Duration;
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class AmzQs {
+public class Wait {
     private static void addProduct(String[] item, WebDriver driver) throws InterruptedException {
 
         driver.get("https://rahulshettyacademy.com/seleniumPractise/");
@@ -30,8 +30,22 @@ public class AmzQs {
     }
     public static void main(String[] args) throws InterruptedException {
         WebDriver driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         String[] item = {"Cucumber","Brocolli","Beetroot"};
         addProduct(item,driver);
+
+        driver.findElement(By.xpath("//a[@class='cart-icon']/img")).click();
+        driver.findElement(By.xpath("//*[contains(text(),'PROCEED TO CHECKOUT')]")).click();
+//            driver.findElement(By.xpath("//button[contains(text(),'PROCEED TO CHECKOUT')]")).click();
+//            driver.findElement(By.xpath("//*[contains(text(),'PROCEED TO CHE')]")).click();
+
+        //take some to get to checkOut page
+//            driver.findElement(By.xpath("//div[@class='promoWrapper']/parent::div/child::div/child::input")).sendKeys("param");
+        driver.findElement(By.cssSelector("input.promoCode")).sendKeys("rahulshettyacademyparam");
+
+        driver.findElement(By.xpath("//div[@class='promoWrapper']/child::button")).click();
+        System.out.println(driver.findElement(By.cssSelector("span.promoInfo")).getText());
+        Assert.assertEquals(driver.findElement(By.cssSelector("span.promoInfo")).getText(),"Invalid code ..!");
     }
+
 }
