@@ -1,0 +1,39 @@
+Connection reset
+org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+
+Cause
+issue occur after first time execution
+driver.close() - failing in this step meaning socket is not closing properly
+Solution
+fixed with driver.quit()
+
+
+*******************************************************************************************************************
+CDP(chrome dev tools) Warning - api to fetch all data like network,source
+
+Cause
+because of chrome version, selenium comes with cdp version
+if cdp version is different in selenium version and chrome version
+then this warning will come
+
+*******************************************************************************************************************
+Connection Failed Exception
+
+Solution
+ChromeException options = new ChromeOptions();
+options.addArgument(--remote-allow-origins=*);
+WebDriver driver = new ChromeDriver(options);
+
+*******************************************************************************************************************
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+The ElementNotInteractableException in Selenium indicates that an element is present in the DOM
+but cannot be interacted with, typically because it is not visible or not enabled.
+Cause
+Element Not Visible
+Element Not Enabled
+Element Covered by Another Element
+Timing Issues
+JavaScript Execution
+Stale Element Reference

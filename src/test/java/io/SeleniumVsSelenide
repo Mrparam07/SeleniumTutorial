@@ -1,0 +1,37 @@
+Selenium
+Library Type: Selenium is a web browser automation library.
+API Level: Low-level API, requiring more code to handle common tasks.
+Simplicity: Less user-friendly; requires boilerplate code for setup and handling common scenarios.
+Fluent Interface: Does not provide a fluent interface out-of-the-box.
+Wait Mechanism: Requires explicit waits to handle dynamic content (e.g., WebDriverWait).
+Reporting: No built-in reporting capabilities; requires third-party libraries.
+Community and Support: Large and active community, widely adopted across various industries.
+Flexibility: Highly flexible and customizable; supports multiple languages (Java, Python, C#, etc.).
+Integration: Easily integrates with other testing frameworks and tools.
+
+Selenide
+Library Type: Selenide is a wrapper around Selenium, designed to simplify browser automation.
+API Level: High-level API, providing concise and readable code.
+Simplicity: More user-friendly; reduces boilerplate code with built-in solutions for common tasks.
+Fluent Interface: Provides a fluent interface for easier and more readable tests.
+Wait Mechanism: Has built-in automatic waits, simplifying handling of dynamic content.
+Reporting: Includes built-in reporting capabilities (e.g., screenshots on failure).
+Community and Support: Growing community, but smaller than Selenium's.
+Flexibility: Slightly less flexible than Selenium but covers most common use cases. Primarily supports Java.
+Integration: Integrates well with popular testing frameworks like JUnit and TestNG.
+
+Key Differences in Code
+Simplicity and Readability: Selenide code is more concise and readable, with built-in waits and less boilerplate.
+Wait Mechanism: Selenide automatically handles waits, whereas Selenium requires explicit wait conditions.
+Fluent Interface: Selenide provides a fluent interface, making the code more readable and easier to understand.
+
+In summary, Selenium offers greater flexibility and is widely used, but requires more boilerplate
+and explicit handling of common tasks. Selenide, on the other hand, simplifies the automation process
+with a higher-level API, built-in waits, and a fluent interface, at the cost of some flexibility.
+
+
+
+
+
+
+

@@ -12,7 +12,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class SelWait {
+public class ImplicitAndExplicitWait {
     private static void addProduct(String[] item, WebDriver driver) throws InterruptedException {
 
         driver.get("https://rahulshettyacademy.com/seleniumPractise/");
