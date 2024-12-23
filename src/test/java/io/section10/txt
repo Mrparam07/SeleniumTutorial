@@ -1,0 +1,18 @@
+* getWindowHandles()
+Set<String> windows = driver.getWindowHandles() // Set is used to store window ids
+used to store mulitple windows
+
+* Actions action = new Actions(driver)
+used to perform actions mouse/keyboard/
+
+contextClick // right click
+
+//keyDown(Keys.SHIFT) // press key down
+action.moveToElement(driver.findElement(By.id("name"))).click()
+.keyDown(Keys.SHIFT).sendKeys("param").doubleClick().contextClick().build().perform();
+
+* frames
+driver.switchTo().frame();
+can be identified by index,id,webelement
+
+

@@ -1,0 +1,21 @@
+quit()
+Purpose: This method is used to close all the browser windows opened by the WebDriver and ends the WebDriver session.
+Usage: It is used when you want to completely terminate the browser session, including all associated windows, tabs, and processes.
+
+close()
+Purpose: This method is used to close the currently focused browser window or tab.
+Usage: It is used when you want to close a specific browser window or tab while keeping the WebDriver session and other windows/tabs open.
+
+Key Differences
+Scope:
+quit(): Closes all windows and ends the WebDriver session.
+close(): Closes only the currently focused window or tab.
+
+Use Case:
+
+quit(): Use it when you are done with the entire test session and want to clean up all browser instances.
+close(): Use it when you need to close a specific window or tab but continue with the WebDriver session in other windows/tabs.
+
+When to Use Which
+quit(): Use this method at the end of your test suite or when you need to completely close all browser instances and free up resources.
+close(): Use this method when you need to close a specific window or tab, especially in scenarios where your test involves multiple windows or tabs.
