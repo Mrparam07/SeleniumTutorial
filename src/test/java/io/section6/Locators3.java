@@ -14,7 +14,9 @@ public class Locators3 {
         WebDriver driver = new ChromeDriver();
         driver.get("https://rahulshettyacademy.com/AutomationPractice/");
         System.out.println(driver.findElement(By.xpath("//header/div/button[1]/following-sibling::button[1]")).getText());
+        System.out.println(driver.findElement(By.xpath("//header/div/button[3]/preceding-sibling::button[2]")).getText());
         //header/div/button[1]/parent::div/parent::header/a
+        //header/div/button[3]/preceding-sibling::button[2]/parent::div/parent::header/parent::body/parent::html
         System.out.println(driver.findElement(By.xpath("//header/div/button[1]/parent::div/button[2]")).getText());
 
 //        <input class="button_r4wideprimary" type="submit" id="LoginIdwideprimary" name="Login">
