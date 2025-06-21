@@ -24,7 +24,29 @@ public class RevisionPractice3 {
 //        getHiddenElements();
 
         //e2e flight search
-        searchFlightE2E();
+//        searchFlightE2E();
+
+        //handle alerts
+        handleAlerts();
+    }
+
+    private static void handleAlerts() {
+        WebDriver driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+        driver.findElement(By.id("name")).sendKeys("param");
+        driver.findElement(By.cssSelector("[id='alertbtn']")).click();
+        String alertText = driver.switchTo().alert().getText();
+        System.out.println(alertText);
+        waitForSec(2);
+        driver.switchTo().alert().accept();
+
+        driver.findElement(By.id("confirmbtn")).click();
+        waitForSec(2);
+        String alertText2 = driver.switchTo().alert().getText();
+        System.out.println(alertText2);
+        driver.switchTo().alert().dismiss(); //yes:accept(), cancel:dismiss()
+
     }
 
     private static void searchFlightE2E() {

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite" verbose="1" parallel="none">
+
+    <!--Run Test in Parallel   -->
+    <!--<suite name="MyTestSuite" verbose="1" parallel="tests" thread-count="100">-->
+    <!--    <test name="MyTestOneTwo" parallel="methods" thread-count="3"> ToDo -->
+    <!--    <test name="MyTestOneTwo" parallel="classes" thread-count="3">-->
+    <!--        <classes>-->
+    <!--            <class name="testng.day4">-->
+    <!--                <methods></methods>-->
+    <!--                <methods></methods>-->
+    <!--                <methods></methods>-->
+    <!--            </class>-->
+    <!--            <class name="testng.day5">-->
+    <!--            </class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+
+    <!--    PARAMETER global level     -->
+    <!--    <parameter name="URL" value="google.com"></parameter>-->
+    <!--            <test name="MyTestOne">-->
+    <!--                <classes>-->
+    <!--                    <class name="testng.day4"/>-->
+    <!--                </classes>-->
+    <!--            </test>-->
+    <!--    <test name="MyTestOneTwo">-->
+    <!--        &lt;!&ndash;                Test Level          &ndash;&gt;-->
+    <!--        <parameter name="URL" value="facebook.com"></parameter>-->
+    <!--        <classes>-->
+    <!--            <class name="testng.day5"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!-- Define a test group -->
+    <!--    <test name="MyTestOne">-->
+    <!--        <classes>-->
+    <!--            &lt;!&ndash; Add test classes here &ndash;&gt;-->
+    <!--            <class name="testng.day1"/>-->
+    <!--            <class name="testng.day2"/>-->
+    <!--            &lt;!&ndash;            <class name="testng.day3" />&ndash;&gt;-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--    <test name="MyTestTwo">-->
+    <!--        <classes>-->
+    <!--            &lt;!&ndash; Add test classes here &ndash;&gt;-->
+    <!--            <class name="testng.day3">-->
+    <!--                <methods>-->
+    <!--                    <exclude name="met3One"></exclude>-->
+    <!--                </methods>-->
+    <!--            </class>-->
+    <!--            <class name="testng.day4">-->
+    <!--                <methods>-->
+    <!--                    <include name="met4Two" />-->
+    <!--                    <include name="met4One" />-->
+    <!--                </methods>-->
+    <!--            </class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--    <test name="MyTest5">-->
+    <!--        <classes>-->
+    <!--            <class name="testng.day5">-->
+    <!--                <methods>-->
+    <!--&lt;!&ndash;                    <exclude name="api"></exclude>&ndash;&gt;-->
+    <!--                    <include name="mobile.*"></include>-->
+    <!--&lt;!&ndash;                    <exclude name="mobile.*"></exclude>&ndash;&gt;-->
+    <!--                </methods>-->
+    <!--            </class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!--    PACKAGE LEVEL     -->
+    <!--<test name="Package">-->
+    <!--    <packages>-->
+    <!--        <package name="testng">-->
+    <!--        </package>-->
+    <!--    </packages>-->
+    <!--</test>-->
+
+    <!--&lt;!&ndash;    BEFORE/AFTER TEST(test level) AND GLOBAL LEVEL &ndash;&gt;-->
+
+    <!--    <test name="MyTestOne">-->
+    <!--        <classes>-->
+    <!--            <class name="testng.day1"/>-->
+    <!--            <class name="testng.day2"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--    <test name="MyTestTwo">-->
+    <!--        <classes>-->
+    <!--            <class name="testng.day3"/>-->
+    <!--            <class name="testng.day4"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!--    BEFORE/AFTER METHODS    -->
+
+    <!--    <test name="MyTestOne">-->
+    <!--        <classes>-->
+    <!--            <class name="testng.day1"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!--    GROUPS    -->
+    <!--    <test name="Package">-->
+    <!--        <groups>-->
+    <!--            <run>-->
+    <!--                <include name="Smoke"></include>-->
+    <!--            </run>-->
+    <!--        </groups>-->
+    <!--        <packages>-->
+    <!--            <package name="testng">-->
+    <!--            </package>-->
+    <!--        </packages>-->
+    <!--    </test>-->
+    <!--        <test name="MyTestOne">-->
+    <!--            <groups>-->
+    <!--                <run>-->
+    <!--                    <include name="Smoke"></include>-->
+    <!--                </run>-->
+    <!--            </groups>-->
+    <!--            <classes>-->
+    <!--                <class name="testng.day1"/>-->
+    <!--                <class name="testng.day2"/>-->
+    <!--                <class name="testng.day5"/>-->
+    <!--            </classes>-->
+    <!--        </test>-->
+
+</suite>
