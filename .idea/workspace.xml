@@ -4,91 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4f2b809-b625-41f0-9a6b-e1219f68c16b" name="Changes" comment="#comment section 9 005.">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/ErrorList" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/SeleniumVsSelenide" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/SimilarTools" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/Topics" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/quitVsClose" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/section10/ActionTut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/section10/FrameAssignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/section10/FramesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/section10/WindowHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/section10/WindowHandleAssignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/section10/txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/section11/Assignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/section11/CalendarRs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/section11/CalendarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/section11/CalendarTut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/section11/Scope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/section11/txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/section12/AutoSuggestiveAssign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/section12/JavaScriptExecutorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/section12/WebTableAssign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/section12/WebTableAssignRs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/section13/AssertionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/section13/BrokenLinks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/section13/Misc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/section13/SSLCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/section13/TakeScreenShots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/section14/StreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss/ss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section10/ActionTut.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section10/FrameAssignment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section10/FramesTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section10/WindowHandle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section10/WindowHandleAssignment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section11/Assignment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section11/CalendarRs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section11/CalendarTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section11/CalendarTut.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section11/Scope.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section12/AutoSuggestiveAssign.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section12/JavaScriptExecutorDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section12/WebTableAssign.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section12/WebTableAssignRs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section13/AssertionsTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section13/BrokenLinks.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section13/Misc.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section13/SSLCheck.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section13/TakeScreenShots.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section6/BrowserActivity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section6/FirstProgram.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section6/Locators.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section6/Locators2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section6/Locators3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section6/WindowsActivity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section7/Alert.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section7/AutoSuggestive.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section7/Calendar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section7/CheckBox.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section7/DynamicDropDown.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section7/E2E.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section7/FormAssignment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section7/StaticDropDown.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section7/UpdatedDropDown.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section8/AmzQs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section8/Base.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section8/Rish.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section9/AssignSolution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section9/Assignment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section9/FluentWaitEx$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section9/FluentWaitEx.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section9/ImplicitAndExplicitWait.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/section9/LectureCodeWait.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/section9/SelWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/section9/ImplicitAndExplicitWait.java" afterDir="false" />
+    <list default="true" id="7df83429-c289-4f2d-9570-321a265423c1" name="Changes" comment="#comment revision and practice">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Listeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/section10/Revision10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/section11/Revision11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/section11/SirScope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/section12/Revision12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/section13/Revision13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/section14/Revision14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/section14/RevisionJS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/section15/InvokeBrowsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/section15/RelativeLocators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/section16/TestNGTutorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/section17/PS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/section17/PS1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/section17/PS2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/section17/PS3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/section8/Revision8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/section9/Revision9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/day1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/day2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/day3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/day4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/day5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testnglisteners.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testngother.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Changes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/section13/BrokenLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/section13/BrokenLinks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/section13/TakeScreenShots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/section13/TakeScreenShots.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/section7/RevisionPractice3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/section7/RevisionPractice3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/section9/Assignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/section9/Assignment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss/ss.png" beforeDir="false" afterPath="$PROJECT_DIR$/ss/ss.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/section13/BrokenLinks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/section13/BrokenLinks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/section13/TakeScreenShots.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/section13/TakeScreenShots.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/section9/Assignment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/section9/Assignment.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,90 +62,122 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Mrparam07&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Mrparam07/SeleniumTutorial.git&quot;,
-    &quot;accountId&quot;: &quot;174d9b14-898f-41c1-90c3-250366cd82e0&quot;
-  }
-}</component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="customMavenHome" value="C:\maven\apache-maven-3.5.4" />
-        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
-  <component name="ProjectId" id="2gNP4OYqChXBAuNnqRpdElvtTmq" />
+  <component name="ProjectId" id="2qclKrMRCdQCrm90449Za5b7d7E" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.StreamDemo.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.StreamDemo.streamFilter (1).executor": "Run",
-    "TestNG.StreamDemo.streamFilter (2).executor": "Run",
-    "TestNG.StreamDemo.streamFilter (3).executor": "Run",
-    "TestNG.StreamDemo.streamFilter (4).executor": "Run",
-    "TestNG.StreamDemo.streamFilter.executor": "Run",
-    "git-widget-placeholder": "working-branch",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/TechAndLearn/IdeaProjects/SeleniumTutorial",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Assignment.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InvokeBrowsers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Misc.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RelativeLocators.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Revision.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Revision10.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Revision11.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Revision12.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Revision13.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Revision14.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Revision9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RevisionJS.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RevisionPractice3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SirScope.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.D:/TechAndLearn/IdeaProjects/SeleniumTutorial/src/test/java/testNG/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/TechAndLearn/IdeaProjects/SeleniumTutorial/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/TechAndLearn/IdeaProjects/SeleniumTutorial/testnglisteners.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/TechAndLearn/IdeaProjects/SeleniumTutorial/testngother.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MyTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PS1.thisIsATest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Revision14.customizePath.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Revision14.javaStream.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Revision14.mapInStream.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Revision14.printUniue.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Revision14.streamFilter.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Revision14.verifyFilters.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Revision14.webTableSorting.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Revision14.webTableSortingUsingStream.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.day1.day1One.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.day1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.day1.metOne.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.day2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.day2.funOne.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.day4.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.day5 (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.day5.api.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.day5.dataProviderTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.day5.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.day5.parameterCheck.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.testNG.executor&quot;: &quot;Run&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/TechAndLearn/IdeaProjects/SeleniumTutorial/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/TechAndLearn/IdeaProjects/APIFramework&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.StreamDemo.streamFilter">
-    <configuration name="StreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.section14.StreamDemo" />
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\TechAndLearn\IdeaProjects\SeleniumTutorial" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.PS1.thisIsATest">
+    <configuration name="D:/TechAndLearn/IdeaProjects/SeleniumTutorial/testnglisteners.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTutorial" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.section14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testnglisteners.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamDemo.streamFilter (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/TechAndLearn/IdeaProjects/SeleniumTutorial/testngother.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTutorial" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngother.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PS1.thisIsATest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.section14.*" />
+          <option name="PATTERN" value="io.section17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.section14" />
-      <option name="MAIN_CLASS_NAME" value="io.section14.StreamDemo" />
-      <option name="METHOD_NAME" value="streamFilter" />
+      <option name="PACKAGE_NAME" value="io.section17" />
+      <option name="MAIN_CLASS_NAME" value="io.section17.PS1" />
+      <option name="METHOD_NAME" value="thisIsATest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -201,17 +185,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamDemo.streamFilter (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="day1.metOne" type="TestNG" nameIsGenerated="true">
       <module name="SeleniumTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.section14.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.section14" />
-      <option name="MAIN_CLASS_NAME" value="io.section14.StreamDemo" />
-      <option name="METHOD_NAME" value="streamFilter" />
+      <option name="PACKAGE_NAME" value="testNG" />
+      <option name="MAIN_CLASS_NAME" value="testng.day1" />
+      <option name="METHOD_NAME" value="metOne" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -219,17 +203,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamDemo.streamFilter (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="day5.api" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.section14.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.section14" />
-      <option name="MAIN_CLASS_NAME" value="io.section14.StreamDemo" />
-      <option name="METHOD_NAME" value="streamFilter" />
+      <option name="PACKAGE_NAME" value="testNG" />
+      <option name="MAIN_CLASS_NAME" value="testng.day5" />
+      <option name="METHOD_NAME" value="api" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -237,17 +221,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamDemo.streamFilter" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="day5.dataProviderTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.section14.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.section14" />
-      <option name="MAIN_CLASS_NAME" value="io.section14.StreamDemo" />
-      <option name="METHOD_NAME" value="streamFilter" />
+      <option name="PACKAGE_NAME" value="testNG" />
+      <option name="MAIN_CLASS_NAME" value="testng.day5" />
+      <option name="METHOD_NAME" value="dataProviderTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -255,49 +239,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.day1.metOne" />
+      <item itemvalue="TestNG.PS1.thisIsATest" />
+      <item itemvalue="TestNG.D:/TechAndLearn/IdeaProjects/SeleniumTutorial/testnglisteners.xml" />
+      <item itemvalue="TestNG.D:/TechAndLearn/IdeaProjects/SeleniumTutorial/testngother.xml" />
+      <item itemvalue="TestNG.day5.api" />
+      <item itemvalue="TestNG.day5.dataProviderTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.StreamDemo.streamFilter" />
-        <item itemvalue="TestNG.StreamDemo.streamFilter (4)" />
-        <item itemvalue="Application.StreamDemo" />
-        <item itemvalue="TestNG.StreamDemo.streamFilter (3)" />
-        <item itemvalue="TestNG.StreamDemo.streamFilter (2)" />
+        <item itemvalue="TestNG.PS1.thisIsATest" />
+        <item itemvalue="TestNG.D:/TechAndLearn/IdeaProjects/SeleniumTutorial/testnglisteners.xml" />
+        <item itemvalue="TestNG.day5.api" />
+        <item itemvalue="TestNG.D:/TechAndLearn/IdeaProjects/SeleniumTutorial/testngother.xml" />
+        <item itemvalue="TestNG.day5.dataProviderTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="LOCAL-00001" summary="#comment section 9 003.">
-      <created>1715513266995</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1715513266995</updated>
-    </task>
-    <task id="LOCAL-00002" summary="#comment section 9 004.">
-      <created>1715515318663</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1715515318663</updated>
-    </task>
-    <task id="LOCAL-00003" summary="#comment section 9 005.">
-      <created>1715528499120</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1715528499120</updated>
-    </task>
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b4f2b809-b625-41f0-9a6b-e1219f68c16b" name="Changes" comment="#comment section 9 005." />
-      <created>1715534873931</created>
+      <changelist id="7df83429-c289-4f2d-9570-321a265423c1" name="Changes" comment="#comment revision and practice" />
+      <created>1734970296655</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1715534873931</updated>
-      <workItem from="1717095037078" duration="167000" />
-      <workItem from="1717095213029" duration="856000" />
+      <updated>1734970296655</updated>
+      <workItem from="1734970298425" duration="1483000" />
+      <workItem from="1735324817459" duration="5902000" />
+      <workItem from="1735464394916" duration="9076000" />
+      <workItem from="1735547642906" duration="18557000" />
+      <workItem from="1735637919721" duration="27564000" />
+      <workItem from="1735996760607" duration="5345000" />
+      <workItem from="1736279138835" duration="986000" />
+      <workItem from="1736494842679" duration="7805000" />
+      <workItem from="1736667741110" duration="16920000" />
+      <workItem from="1736710013925" duration="15000" />
+      <workItem from="1736789559746" duration="5656000" />
+      <workItem from="1737287865503" duration="12779000" />
+      <workItem from="1737474901361" duration="1343000" />
+      <workItem from="1737737312981" duration="201000" />
+      <workItem from="1737793525910" duration="1849000" />
+      <workItem from="1737885788446" duration="7642000" />
+      <workItem from="1739611021120" duration="2000" />
+      <workItem from="1748719662047" duration="378000" />
+      <workItem from="1750003798771" duration="17000" />
+      <workItem from="1750003829322" duration="60000" />
     </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,12 +302,15 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="#comment section 9 002." />
-    <MESSAGE value="#comment section 9 003." />
-    <MESSAGE value="#comment section 9 004." />
-    <MESSAGE value="#comment section 9 005." />
-    <option name="LAST_COMMIT_MESSAGE" value="#comment section 9 005." />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/io/section13/Misc.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

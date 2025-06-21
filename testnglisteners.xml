@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite" verbose="1" parallel="none">
+
+<!--    LISTENERS    -->
+    <listeners>
+        <listener class-name="Listeners"></listener>
+    </listeners>
+    <test name="MyTestOne">
+        <classes>
+            <!--            &lt;!&ndash; Add test classes here &ndash;&gt;-->
+            <!--            <class name="testng.day1"/>-->
+            <!--            <class name="testng.day2"/>-->
+            <class name="testng.day5">
+                <methods>
+                    <include name="listenersTest"></include>
+                    <include name="listenersTestTwo"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

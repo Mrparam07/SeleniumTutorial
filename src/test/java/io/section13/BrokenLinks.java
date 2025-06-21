@@ -59,7 +59,7 @@ public class BrokenLinks {
         Iterator<String> it = workingLinks.iterator();
         while(it.hasNext()){
             String link = it.next();
-            System.out.println(it.next());
+            System.out.println(link);
         }
     }
 }
